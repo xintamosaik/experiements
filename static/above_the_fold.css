@@ -1,0 +1,32 @@
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 2ch 3ch;
+}
+
+nav a:hover {
+    background-color: #444;
+}
+
+section {
+    min-height: 100vh;
+    background-color: #333;
+    padding: 3rem;
+    border: 1px solid #eee;
+}
