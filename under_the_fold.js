@@ -1,7 +1,7 @@
 (function init_under_the_fold () {
     'use strict';
     const fold = document.querySelector('#fold');
-    // fetch "under_the_fold.html" and insert it into the fold element
+
     fetch('under_the_fold.html')
         .then(response => {
             if (!response.ok) {
