@@ -10,42 +10,34 @@
 </head>
 
 <body>
-    <script>
-
-    </script>
     <nav>
         <ul>
             <li>
-                <a onmouseover="this.classList.add('hover')" onmouseleave="this.style.color='unset'" href="#one">One</a>
+                <a href="#one">One</a>
             </li>
             <li>
-                <a onmouseover="this.style.color='red'" onmouseleave="this.style.color='unset'" href="#two">Two</a>
+                <a href="#two">Two</a>
             </li>
             <li>
-                <a onmouseover="this.style.color='red'" onmouseleave="this.style.color='unset'" href="#three">Three</a>
+                <a href="#three">Three</a>
             </li>
             <li>
-                <a onmouseover="this.style.color='red'" onmouseleave="this.style.color='unset'" href="#four">Four</a>
+                <a href="#four">Four</a>
             </li>
         </ul>
     </nav>
-    <script>
-        const nav = document.querySelector('nav');
-        const sections = document.querySelectorAll('section');
 
-
-    </script>
     <main>
         <section id="one">
             <h1>One</h1>
             <p>This is the first section of the document.</p>
         </section>
-        <div id="fold">
-
-        </div>
+        <div id="fold"></div>
     </main>
-    <link rel="stylesheet" href="under_the_fold.css">
-    <script src="above_the_fold.js" defer></script>
+ 
+
+    <script src="above_the_fold.js" async></script>
+    <script src="under_the_fold.js" defer></script>
 </body>
 
 </html>

@@ -3,9 +3,7 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #222;
-    color: white;
-    padding: 1ch;
+    background-color: #333;
 }
 
 nav ul {
@@ -13,23 +11,22 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
-
 }
 
 nav a {
+    display: block;
     color: white;
     text-decoration: none;
-    padding: 1.5ch 3ch;
-
+    padding: 2ch 3ch;
 }
 
-.hover {
-    color: red;
+nav a:hover {
+    background-color: #444;
 }
 
 section {
     min-height: 100vh;
     background-color: #333;
-    padding: 2ch;
+    padding: 3rem;
     border: 1px solid #eee;
 }
