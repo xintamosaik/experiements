@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiments</title>
+    <meta name="color-scheme" content="light dark">
+    <link rel="stylesheet" href="above_the_fold.css">
+</head>
+
+<body>
+    <script>
+
+    </script>
+    <nav>
+        <ul>
+            <li>
+                <a onmouseover="this.classList.add('hover')" onmouseleave="this.style.color='unset'" href="#one">One</a>
+            </li>
+            <li>
+                <a onmouseover="this.style.color='red'" onmouseleave="this.style.color='unset'" href="#two">Two</a>
+            </li>
+            <li>
+                <a onmouseover="this.style.color='red'" onmouseleave="this.style.color='unset'" href="#three">Three</a>
+            </li>
+            <li>
+                <a onmouseover="this.style.color='red'" onmouseleave="this.style.color='unset'" href="#four">Four</a>
+            </li>
+        </ul>
+    </nav>
+    <script>
+        const nav = document.querySelector('nav');
+        const sections = document.querySelectorAll('section');
+
+
+    </script>
+    <main>
+        <section id="one">
+            <h1>One</h1>
+            <p>This is the first section of the document.</p>
+        </section>
+    </main>
+    <link rel="stylesheet" href="under_the_fold.css">
+    <script src="under_the_fold.js" defer></script>
+</body>
+
+</html>
